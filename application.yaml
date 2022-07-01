@@ -9,7 +9,6 @@ spec:
   source:
     repoURL: https://github.com/AbilashKriz/Dev.git
     targetRevision: HEAD
-    path: Dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
