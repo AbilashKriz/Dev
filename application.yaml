@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/AbilashKriz/Dev.git
     targetRevision: HEAD
+    path: "${PWD}"
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
