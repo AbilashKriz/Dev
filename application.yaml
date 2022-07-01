@@ -12,7 +12,7 @@ spec:
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
-    path: $pwd
+    path: Dev
 
   syncPolicy:
     syncOptions:
